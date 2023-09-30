@@ -19,8 +19,8 @@ void run_case() {
     os -= temp;
     a1 -= temp;
     
-    ans += os; // 1s must be positive and all req fancy 1 coins at this point
-    ans += max(ks - (a1 / k), 0); // (a1 / k) is amount of ks that can be made using remaining a1
+    ans += os;
+    ans += max(ks - (a1 / k), 0);
     cout << ans << nl;
 } 
 
