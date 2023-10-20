@@ -1,0 +1,8 @@
+Common Issues:
+  - array bounds
+  - overflow
+  - clearing structures in multitests
+
+Sanity Reminder
+  - nothing is right until actually tested
+  - ...
