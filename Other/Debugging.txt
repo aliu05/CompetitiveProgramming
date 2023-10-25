@@ -3,7 +3,7 @@ Common Issues:
   - overflow
   - clearing structures in multitests
   - arithmetic between signed and unsigned things
-    - eg. int + vector.size()
+    - eg. int +/- vector.size()
 
 Sanity Reminder
   - nothing is right until actually tested
