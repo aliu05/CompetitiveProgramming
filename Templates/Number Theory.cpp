@@ -1,5 +1,5 @@
 /*
-    Updated: 03-03-2024
+    Updated: 03-11-2024
     Status:  Incomplete
     Source:  me
 */
@@ -32,8 +32,8 @@ namespace lzk_NumberTheory {
     }
     
     // Counts the exponent of each prime factor
-    map<int64_t, int> primeFactorMap(int64_t x) {
-        map<int64_t, int> ret;
+    map<int64_t, int64_t> primeFactorMap(int64_t x) {
+        map<int64_t, int64_t> ret;
         int64_t tx = x;
         for(int64_t e : primeFactor(x)) {
             while(tx % e == 0)  {
@@ -42,6 +42,23 @@ namespace lzk_NumberTheory {
             }
         }
         return ret;
+    }
+
+    // GCD between 2 elements
+    int64_t GCD(int64_t n1, int64_t n2) {
+        if(n1 == 0) return n2;
+        return GCD(n2 % n1, n1);
+    }
+
+    // GCD of integer array (size > 0)
+    int64_t arrayGCD(vector<int64_t> vec) {
+        if((int)vec.size() == 0) return -1;
+        int64_t res = vec[0];
+        for(int i = 1; i < (int)vec.size(); ++i) {
+            res = GCD(vec[i], res);
+            if(res == 1) return 1;
+        }
+        return res;
     }
 }
 
