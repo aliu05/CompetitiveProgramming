@@ -3,11 +3,15 @@ using namespace std;
 
 typedef int64_t i64;
 
-#define nl "\n"
+#define nl '\n'
 #define pb push_back
 #define mp make_pair
 #define YES "YES\n"
 #define NO "NO\n"
+#define F0R(a, b) for(i64 (a)=0; (a)<(b); ++(a))
+#define FORE(a) for(auto& e : (a))
+#define all(x) (x).begin(), (x).end()
+#define sz(x) (i64)(x).size()
 
 // source: neal cf blog
 struct custom_hash {
@@ -24,17 +28,14 @@ struct custom_hash {
     }
 };
 
-
-
 void run_case() {
-
+	
 }
 
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     int t = 1; cin >> t;
-    while(t--)
-        run_case();
+    while(t--) run_case();
     return 0;
 }
