@@ -1,0 +1,11 @@
+Common Issues:
+  - array bounds
+  - overflow
+  - clearing structures in multitests (and between loops)
+  - arithmetic between different things
+    - eg. int +/- vector.size()
+    - eg. int + int64_t
+
+Sanity Reminders:
+  - nothing is right until actually tested
+  - write stress tests if going insane (maybe)
