@@ -1,7 +1,6 @@
 /*
+    Segment tree implementation supporting point-update + range-query in log(N)
     Updated: 09-23-2024
-    Status:  idk
-    Source:  me
     Verification: https://codeforces.com/problemset/problem/1915/F
 */
 

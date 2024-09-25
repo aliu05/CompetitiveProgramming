@@ -1,5 +1,5 @@
 /*
-    Description: On 2D matrix (board) list all 8 possible displacements for a knight.
+    On 2D board list all 8 possible displacements for a knight.
     Source: https://www.geeksforgeeks.org/possible-moves-knight/
 */
 

@@ -1,4 +1,7 @@
-// https://codeforces.com/gym/104713/problem/D
+/*
+    https://codeforces.com/gym/104713/problem/D
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 

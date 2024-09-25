@@ -1,7 +1,6 @@
 /*
-    Updated: 03-11-2024
-    Status:  Incomplete
-    Source:  me
+   General number theory tools
+   Updated: 03-11-2024
 */
 
 namespace lzk_NumberTheory {
