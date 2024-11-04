@@ -13,7 +13,7 @@ int main() {
     for(i64 i = 1; i < n; i++) {
         if(s[i] != s[i - 1]) len = 1;
         else len++;
-        ans = max(ans, len);
+        ans = min(ans, len);
     }
     cout << ans;
     return 0;

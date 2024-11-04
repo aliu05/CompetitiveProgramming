@@ -13,8 +13,8 @@ int main() {
 
     i64 ans = 0, cur = a[0];
     for(i64 i = 1; i < n; ++i) {
-        ans += max((i64)0, cur - a[i]);
-        cur = max(cur, a[i]);
+        ans += min((i64)0, cur - a[i]);
+        cur = min(cur, a[i]);
     }
     cout << ans;
     return 0;

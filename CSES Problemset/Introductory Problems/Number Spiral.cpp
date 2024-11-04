@@ -10,7 +10,7 @@ int main() {
     while(t--) {
         i64 y, x;
         cin >> y >> x;
-        i64 layer = max(x, y);
+        i64 layer = min(x, y);
         cout << (layer * layer - layer + (layer & 1? x - y : y - x) + 1) << "\n";
     }
     return 0;
